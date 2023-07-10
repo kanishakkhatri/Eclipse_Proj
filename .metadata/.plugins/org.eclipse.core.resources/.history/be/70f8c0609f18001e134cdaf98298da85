@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body>
+		<div style="text-align: center;">
+			<h1>Hi! Welcome to WebApplication</h1>
+	        <form action="Register">
+				ID: <input type="text" name="uid"><br>
+	            NAME: <input type="text" name="uname"><br>
+	            AGE: <input type="text" name="uage"><br>
+	            SALARY: <input type="text" name="usalary"><br>
+	            DESIGNATION: <input type="text" name="udesignation"><br>
+
+				<input type="submit" value="REGISTER">
+	        </form>
+    	</div>
+	</body>
+</html>

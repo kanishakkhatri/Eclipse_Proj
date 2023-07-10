@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+	</head>
+	<body bgcolor="turquoise">
+		<div style="text-align: center;">
+			<h1>WebEmployee Application</h1>
+			<table border="1" align="center" >
+					<tr>
+						<th>
+							Click to choose an option
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<form action="Register.html">
+	        					<input type="submit" value="INSERT"><br>
+	        				</form>
+	        			</th>
+					</tr>
+					<tr>
+						<th>
+							<form action="ReadRecord">
+	        					<input type="submit" value="DISPLAY"><br>
+	        				</form>
+						</th>
+					</tr>
+					<tr>
+						<th>
+							<form action="UpdateRecord.html">
+					        	<input type="submit" value="UPDATE"><br>
+					        </form>
+						</th>
+					</tr>
+				</table>
+	        
+			
+	        
+	        <form action="DeleteRecord.html">
+	        	<input type="submit" value="DELETE"><br>
+	        </form>
+    	</div>
+	</body>
+</html>

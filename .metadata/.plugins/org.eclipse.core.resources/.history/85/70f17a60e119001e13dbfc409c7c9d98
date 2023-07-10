@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Insert title here</title>
+		<style type="text/css">
+			body{
+				background-image: url("pexels.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				color: red;
+			}
+		</style>
+	</head>
+	<!--<body bgcolor="turquoise">-->
+	<marquee onmouseover="stop()" onmouseout="start()"><h1> Welcome to WebEmployee App </h1></marquee>
+	
+		<div style="text-align: center; margin-top: 200px;margin-left: 100px">
+			<h1>LOGIN</h1>
+	        <form action="Login" method="post">
+	        <!-- post method to keep username/password secure -->
+				<table border="1" align="center" >
+					<tr>
+						<th>USERNAME</th>
+						<th><input type="text" name="uname" style="width: 250px;height: 40px;border-radius: 10px"></th>
+					</tr>
+					<tr>
+						<th>PASSWORD</th>
+						<th><input type="password" name="upass" style="width: 250px;height: 40px;border-radius: 10px"></th>
+					</tr>
+					<tr>
+						<th>LOGIN</th>
+						<th><input type="submit" value="LOGIN" style="width: 100px;height: 40px;border-radius: 10px;background-color: blue;"></th>
+					</tr>
+				</table>
+			</form>	
+			<!--<img alt="Quote" src="pexels.jpg">-->
+    	</div>
+	</body>
+</html>

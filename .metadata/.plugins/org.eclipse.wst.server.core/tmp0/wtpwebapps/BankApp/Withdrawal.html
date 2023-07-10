@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Withdraw Balance</title>
+<style>
+    body {
+        background-color: yellow;
+        font-family: Arial, sans-serif;
+    }
+    
+    div {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+    
+    form {
+        margin-top: 20px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        margin: 0 auto;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    input[type="text"], input[type="submit"] {
+        width: 250px;
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    input[type="submit"] {
+        width: 100px;
+        background: linear-gradient(to bottom, #4c2882, #7325a7);
+        color: white;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+<div>
+    <h1>Withdraw Balance</h1>
+
+    <form action="Withdrawal">
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th><input type="text" name="uid"></th>
+            </tr>
+            <tr>
+                <th>Withdrawal Amount</th>
+                <th><input type="text" name="uWithdrawalAmount"></th>
+            </tr>
+            <tr>
+                <th></th>
+                <th><input type="submit" value="Withdraw"></th>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

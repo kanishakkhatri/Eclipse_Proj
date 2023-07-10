@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        text-align: center;
+        background-color: #8b6b70;
+        font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+        color: #fff;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        display: inline-block;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #999;
+        border: 1px solid #999;
+        border-radius: 5px;
+    }
+    
+    form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    form input[type="text"] {
+        width: 250px;
+        height: 30px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    form input[type="submit"] {
+        width: 100px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: #fff;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<h1>HI !! HERE YOU CAN Enter Records</h1>
+
+<form action="CreateAcc.jsp">
+    <label for="uid">ID:</label>
+    <input type="text" name="uid" id="uid"><br>
+    <label for="uname">Name:</label>
+    <input type="text" name="uname" id="uname"><br>
+    <label for="uAno">Ano:</label>
+    <input type="text" name="uAno" id="uAno"><br>
+    <label for="uIfsc">Ifsc:</label>
+    <input type="text" name="uIfsc" id="uIfsc"><br>
+    <label for="uPan">Pan:</label>
+    <input type="text" name="uPan" id="uPan"><br>
+    <label for="uAdharno">Adharno:</label>
+    <input type="text" name="uAdharno" id="uAdharno"><br>
+    <label for="uInitialBal">InitialBal:</label>
+    <input type="text" name="uInitialBal" id="uInitialBal"><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

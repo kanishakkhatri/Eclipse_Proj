@@ -1,0 +1,30 @@
+package com;
+
+import java.util.*;
+
+public class Demo3 {
+	public static void main(String[] args) {
+		//Vector al = new Vector<>(); legacy class : old class : 1995 , limeted methods 
+        //Stack al = new Stack<>();
+//		LinkedList ll=new LinkedList();
+		ArrayList al=new ArrayList<>();
+	    al.add(100);	    
+	    al.add(100);
+	    al.add(200);
+	    al.add(200);
+	    al.add("Abc");
+	    al.add(8, "Kanishak");
+	    al.add(true);
+	    al.add(new Date());
+	    al.add(600);
+//	    al.addfirst(111111);
+//	    al.addLast(9999);
+
+	    Iterator i=al.iterator();
+	    while(i.hasNext()){
+	        System.out.println(i.next());
+	    }
+
+	}
+}
+

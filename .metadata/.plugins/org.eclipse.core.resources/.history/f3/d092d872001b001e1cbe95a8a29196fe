@@ -1,0 +1,87 @@
+[11:27 AM] Mansi Chaurasia
+
+package com;
+
+import java.time.DayOfWeek;
+
+import java.time.LocalDate;
+
+import java.util.Date;
+
+ 
+
+class D{
+
+    D(){
+
+        Date d = new Date();
+
+        System.out.println(d);
+
+
+        LocalDate ld = LocalDate.now();
+
+        System.out.println(ld);
+
+
+        LocalDate ld1 = LocalDate.of(2015,02,20);
+
+        System.out.println(ld1);
+
+
+        LocalDate ld2 = LocalDate.parse("2012-09-01");
+
+        System.out.println(ld2);
+
+
+        LocalDate tom = LocalDate.now().plusDays(1);
+
+        System.out.println(tom);
+
+
+        DayOfWeek day = LocalDate.parse("2018-09-01").getDayOfWeek();
+
+        System.out.println(day);
+
+
+        int month = LocalDate.parse("2018-09-01").getDayOfMonth();
+
+        System.out.println(month);
+
+
+        boolean leap = LocalDate.now().isLeapYear();
+
+        System.out.println(leap);
+
+
+        boolean notBefore = LocalDate.parse("2016-06-12")
+
+                  .isBefore(LocalDate.parse("2016-06-11"));
+
+        System.out.println(notBefore);
+
+                boolean isAfter = LocalDate.parse("2016-06-12")
+
+                  .isAfter(LocalDate.parse("2016-06-11"));
+
+                System.out.println(isAfter);
+
+    }
+
+}
+
+ 
+
+public class Date {
+
+ 
+
+    public static void main(String[] args) {
+
+        D a = new D();
+
+    }
+
+ 
+
+}
